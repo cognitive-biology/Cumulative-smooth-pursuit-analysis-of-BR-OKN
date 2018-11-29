@@ -1,0 +1,16 @@
+function gx_spline = splineEMT(gx_cont,nSplines, subsampleFactor)
+time = [1:numel(gx_cont)];
+% to avoid border spline effects fix first and last notNaN points
+gx_notNaN =find(~isnan(gx_cont)); 
+gx_notNaN =gx_notNaN([1,end]);
+notNaNtime=time(~isnan(gx_cont)); % find all retained time points
+nKnots=round(numel(notNaNtime).*subsampleFactor); % define number of knots for each spline
+gx_spline = nan(nSplines,numel(time));
+for iRep =1:nSplines
+    knots = notNaNtime(randperm(numel(notNaNtime),nKnots)); % define knots position for a given subsample
+    s= interp1(knots,gx_cont(knots),time,'pchip');
+    % remove possible extrapolation mistakes
+    gx_spline(iRep,:) = 
+end
+end
+
