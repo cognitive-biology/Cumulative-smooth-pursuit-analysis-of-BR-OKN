@@ -1,6 +1,6 @@
 # Cumulative smooth pursuit analysis of BR-OKN
-This repository contains supplementary information to "Perceptual reversals in binocular rivalry: improved detection from OKN", by Gergo Ziman, Stepan Aleshin, Ilona Kovacs, and Jochen Braun (Journal of Vision, 2019, LINK)
-
+This repository contains supplementary information to "Perceptual reversals in binocular rivalry: improved detection from OKN", by Gergo Ziman, Stepan Aleshin, Ilona Kovacs, and Jochen Braun ([arXiv](https://arxiv.org/abs/1812.02478)).
+<!---
 ## Citing
 If you use the code from this repo in a publication you can thus cite it using the following:
 ????i??. <details><summary>BibTex</summary>
@@ -9,7 +9,7 @@ If you use the code from this repo in a publication you can thus cite it using t
 #### ????
 <p>  
 </details>
-
+-->
 
 # Introduction
 **Binocular rivalry (BR)** is observered under conditions of dichoptic stimulation, in other words, of viewing different images with each eye.  Typically, the subjective perception of such a display alternates spontaneously between left-eye-image and  right-eye-image.  Most studies of this phenomenon rely on volitional reports, that is, on observers reporting their subjective experience as rapidly and faithfully as possible. 
