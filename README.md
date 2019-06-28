@@ -1,5 +1,5 @@
 # Cumulative smooth pursuit analysis of BR-OKN
-This repository contains supplementary information to "Perceptual reversals in binocular rivalry: improved detection from OKN", by Gergo Ziman, Stepan Aleshin, Ilona Kovacs, and Jochen Braun ([arXiv](https://arxiv.org/abs/1812.02478)).
+This repository contains supplementary information to "Perceptual reversals in binocular rivalry: improved detection from OKN", by Gergo Ziman, Stepan Aleshin, Ilona Kovacs, and Jochen Braun.([Journal of Vision](https://jov.arvojournals.org/article.aspx?articleid=2728678)).  Supported by Deutsche Forschungsgemeinschaft BR987/3 und BR97/4 to Jochen Braun.
 <!---
 ## Citing
 If you use the code from this repo in a publication you can thus cite it using the following:
